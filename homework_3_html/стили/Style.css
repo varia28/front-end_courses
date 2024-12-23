@@ -1,0 +1,57 @@
+
+.social-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    width: 280px;
+    cursor: pointer;
+}
+.social-button i {
+    margin-right: 8px;
+}
+
+.center {
+    text-align: center;
+}
+
+.login-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    width: 130px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.up-register-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    width: 130px;
+    color: #46A358;
+    background-color: #fff;
+    border: none;
+    
+    cursor: pointer;
+}
+
+.register-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    width: 280px;
+    color: #fff;
+    background-color: #46A358;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.input {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    width: 239px;
+    cursor: pointer;
+    border-radius: 5px;
+}
