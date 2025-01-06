@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Cera Pro Regular';
+    src: url('../fonts/CeraPro-Regular.ttf');
+    /* src: url('../CeraPro-Regular.ttf'); format('truetype') url('../fonts/CeraPro-Regular.woff') format ('woff'); */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cera Pro Medium';
+    src: url('../fonts/CeraPro-Medium.ttf');
+    /* src: url('../CeraPro-Medium.ttf'); format('truetype') url('../fonts/CeraPro-Medium.woff') format ('woff'); */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cera Pro Bold';
+    src: url('../fonts/CeraPro-Bold.ttf');
+    /* src: url('../CeraPro-Bold.ttf'); format('truetype') url('../fonts/CeraPro-Bold.woff') format ('woff'); */
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 30px 120px 52px;
+}
+.header {
+    border-bottom: 1px solid rgba(70, 163, 88, 0.50);
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 12px;
+}
+.header > .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 8px;
+}
+.header > .nav > li {
+font-family: 'Cera Pro Regular';
+border-bottom: 3px solid transparent;
+color: #3D3D3D;
+font-size: 16px;
+padding-bottom: 25px;
+}
+.header > .nav > li.active {
+    font-family: 'Cera Pro Bold';
+    border-color: #46A358;
+}
+
+.header > .login {
+    border: none;
+    background-color: #46A358;
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 7px 17px;
+    font-family: Cera-Pro-Medium;
+}
+.main{
+    background: linear-gradient(98deg,rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+    display: flex;
+}
+.main > .ctaContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    justify-content: start;
+    padding: 68px 0 85px 43px;
+}
+.main > .ctaContainer > .textContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    justify-content: start;
+    gap: 7px;
+
+}
+.main > .ctaContainer > .textContainer > h1{
+    font-family: 'Cera Pro Bold';
+    font-size: 70px;
+    color: #3D3D3D;
+    line-height: 70px;
+    text-transform: uppercase;
+    width: 90%;
+}
+.main > .ctaContainer > .textContainer > h1 > .colored{
+    color: #46A358;
+}
+.main > .ctaContainer > .textContainer > h5{
+    font-size: 14px;
+    font-family: 'Cera Pro Bold';
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #3D3D3D;
+}
+
+.main > .ctaContainer > .textContainer > h6{
+    font-size: 14px;
+    font-family: 'Cera Pro Regular';
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #727272;
+    width: 86%;
+}
+.main > .ctaContainer > .ctaButton{
+    color: #fff;
+    font-family: 'Cera Pro Bold';
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background: #46A358;
+    padding: 11px 26px;
+    border: none;
+    border-radius: 6px;
+    max-width: 140px;
+}
+.main > .imgContainer{
+    background-image: url('../img/big\ flower.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    min-width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+}
+.main > .imgContainer > img{
+    max-width: 135px;
+    max-height: 135px;
+}
